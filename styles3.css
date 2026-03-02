@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+
+/* HEADER */
+header{
+    background: #111;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #3498db;
+}
+
+/* NAV */
+nav{
+    background: #1a1a1a;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #3498db;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #3498db;
+}
+
+/* MAIN LAYOUT */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* ARTICLE */
+article{
+    border: 2px solid rgba(255,255,255,0.1);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* ASIDE */
+aside{
+    width: 250px;
+    padding: 20px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* TARJETA DE CONTENIDO */
+.contenido_container{
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* TEXTO */
+.contenido_container p{
+    color: #cccccc;
+    margin-bottom: 25px;
+}
+
+/* IMAGEN */
+img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    transition: 0.4s ease;
+}
+
+img:hover{
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+/* BOTÓN */
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    background: linear-gradient(90deg, #2c3e50, #1a252f);
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer{
+    background: #111;
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid #3498db;
+    margin-top: 30px;
+}
+
+/* ANIMACIÓN */
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

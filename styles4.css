@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.salida_container{
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 350px;
+    color: white;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.6);
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background: linear-gradient(90deg, #e74c3c, #c0392b);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.5);
+}
